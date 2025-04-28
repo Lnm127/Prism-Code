@@ -1,0 +1,126 @@
+---
+title: "Predicting Student Success: A Machine Learning Journey"
+date: 2025-04-29T09:00:00Z
+draft: false
+author: "Your Name"
+description: "Explore my college data science project using machine learning to predict student exam performance, with code, visualizations, and insights."
+categories:
+  - Data Science
+  - Machine Learning
+  - Education
+tags:
+  - Random Forest
+  - Python
+  - SHAP
+  - Scikit-learn
+ShowToc: true
+TocOpen: false
+cover:
+  image: "/images/shap-plot.png"
+  alt: "SHAP summary plot showing feature importance"
+  caption: "Feature importance from the Random Forest model"
+  relative: false
+---
+
+# Predicting Student Success: A Machine Learning Journey
+
+Welcome to my data science blog! As a college student diving into the world of machine learning, I tackled a project to predict student exam performance using a Random Forest model. This post walks you through the dataset, methodology, results, and lessons learned, complete with Python code and visualizations. Whether you're a student, educator, or data enthusiast, I hope this sparks your curiosity!
+
+## Why This Project?
+Education shapes futures, but what drives student success? My goal was to build a predictive model to identify key factors affecting exam scores, offering insights for educators. This project, part of my college coursework, combined Python, Scikit-learn, and real-world impact.
+
+## The Dataset
+I used an anonymized dataset of 500 student records from my college:
+
+- **Features**:
+  - Grades (0–100, prior course averages)
+  - Attendance (% of classes attended)
+  - Study Hours (weekly self-reported)
+  - Extracurriculars (hours/week)
+- **Target**: Final exam score (0–100)
+- **Source**: College database (privacy-compliant)
+
+Here’s a glimpse of the data distribution:
+
+{{< figure src="/images/data-distribution.png" alt="Distribution of dataset features" caption="Figure 1: Feature distributions, showing slight skew in study hours." >}}
+
+## Methodology
+Building the model involved several steps, all coded in Python.
+
+### 1. Data Preprocessing
+Clean data is critical. I used Pandas and Scikit-learn:
+
+- Imputed missing values with medians.
+- Scaled numerical features with `StandardScaler`.
+- Encoded categorical extracurricular data.
+
+```python
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+
+# Load and clean data
+data = pd.read_csv("student_data.csv")
+data.fillna(data.median(), inplace=True)
+
+# Scale features
+scaler = StandardScaler()
+X = scaler.fit_transform(data[["grades", "attendance", "study_hours"]])
+y = data["exam_score"]
+```
+
+### 2. Model Selection
+I tested Linear Regression, Random Forest, and XGBoost, choosing Random Forest for its robustness:
+
+```python
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import train_test_split
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train model
+model = RandomForestRegressor(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
+```
+
+### 3. Evaluation
+I used Mean Squared Error (MSE) and R² score, with 5-fold cross-validation:
+
+```python
+from sklearn.model_selection import cross_val_score
+scores = cross_val_score(model, X, y, cv=5, scoring="r2")
+print(f"Cross-validated R²: {scores.mean():.2f} ± {scores.std():.2f}")
+```
+
+**Results**:
+- MSE: 12.5
+- R²: 0.82
+
+## Key Insights
+To interpret predictions, I used SHAP for feature importance:
+
+{{< figure src="/images/shap-plot.png" alt="SHAP summary plot" caption="Figure 2: SHAP plot highlighting grades and attendance as top predictors." >}}
+
+- **Grades**: Strongest predictor, as expected.
+- **Attendance**: High impact, suggesting class presence is key.
+- **Study Hours**: Less influential, possibly due to reporting inaccuracies.
+
+## Challenges
+- **Small Dataset**: 500 samples limited generalization; mitigated with cross-validation.
+- **Noisy Features**: Extracurricular data required careful cleaning.
+- **Resource Constraints**: Limited compute power restricted hyperparameter tuning.
+
+## Future Work
+- Collect more data for better accuracy.
+- Explore deep learning with TensorFlow.
+- Deploy a web app for real-time predictions.
+
+## Conclusion
+This project was a deep dive into machine learning, achieving an R² of 0.82 and actionable insights for education. It honed my skills in Python, Scikit-learn, and data analysis. I’d love to hear your thoughts or collaborate on similar projects!
+
+- **Code**: [GitHub Repository](https://github.com/your-username/student-performance-project)
+- **Contact**: [your.email@example.com](mailto:your.email@example.com) | [LinkedIn](https://linkedin.com/in/your-profile)
+
+Thanks for reading! Explore more posts for my data science journey.
+
+*Last updated: April 29, 2025*

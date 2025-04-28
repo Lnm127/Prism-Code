@@ -1,0 +1,5 @@
+baseURL = 'https://the-cardiac-compass.netlify.app/'
+languageCode = 'en-us'
+title = 'The Cardiac Compass'
+theme = 'gohugo-theme-ananke-2.12.0'
+
