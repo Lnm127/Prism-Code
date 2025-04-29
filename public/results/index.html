@@ -42,16 +42,18 @@
     <meta property="og:url" content="http://localhost:1313/results/">
   <meta property="og:site_name" content="The Cardiac Compass">
   <meta property="og:title" content="Results">
-  <meta property="og:description" content="Model Performance K-NN (k=5): Accuracy 80%, ROC-AUC 0.93 Logistic Regression: Accuracy 76.67%, ROC-AUC 0.85 Key Insights Elderly patients and those with lower ejection fraction are at higher risk. Higher serum creatinine levels correlate with increased mortality.">
+  <meta property="og:description" content="Results K-Nearest Neighbors (KNN) Accuracy: 80% Classification Report: Precision for class 0: 0.79 Recall for class 0: 0.95 F1-score for class 0: 0.86 Precision for class 1: 0.83 Recall for class 1: 0.50 F1-score for class 1: 0.62 Logistic Regression Accuracy: 76.67% Classification Report: Precision for class 0: 0.76 Recall for class 0: 0.95 F1-score for class 0: 0.84 Precision for class 1: 0.80 Recall for class 1: 0.40 F1-score for class 1: 0.53 ROC Curve Comparison The ROC curve analysis shows that the KNN model (with k=5) has a higher Area Under the Curve (AUC) of approximately 0.93 compared to Logistic Regression’s AUC of approximately 0.85, indicating better performance of the KNN model.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Results">
-  <meta itemprop="description" content="Model Performance K-NN (k=5): Accuracy 80%, ROC-AUC 0.93 Logistic Regression: Accuracy 76.67%, ROC-AUC 0.85 Key Insights Elderly patients and those with lower ejection fraction are at higher risk. Higher serum creatinine levels correlate with increased mortality.">
-  <meta itemprop="wordCount" content="36">
+  <meta itemprop="description" content="Results K-Nearest Neighbors (KNN) Accuracy: 80% Classification Report: Precision for class 0: 0.79 Recall for class 0: 0.95 F1-score for class 0: 0.86 Precision for class 1: 0.83 Recall for class 1: 0.50 F1-score for class 1: 0.62 Logistic Regression Accuracy: 76.67% Classification Report: Precision for class 0: 0.76 Recall for class 0: 0.95 F1-score for class 0: 0.84 Precision for class 1: 0.80 Recall for class 1: 0.40 F1-score for class 1: 0.53 ROC Curve Comparison The ROC curve analysis shows that the KNN model (with k=5) has a higher Area Under the Curve (AUC) of approximately 0.93 compared to Logistic Regression’s AUC of approximately 0.85, indicating better performance of the KNN model.">
+  <meta itemprop="datePublished" content="2023-04-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-04-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="114">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Results">
-  <meta name="twitter:description" content="Model Performance K-NN (k=5): Accuracy 80%, ROC-AUC 0.93 Logistic Regression: Accuracy 76.67%, ROC-AUC 0.85 Key Insights Elderly patients and those with lower ejection fraction are at higher risk. Higher serum creatinine levels correlate with increased mortality.">
+  <meta name="twitter:description" content="Results K-Nearest Neighbors (KNN) Accuracy: 80% Classification Report: Precision for class 0: 0.79 Recall for class 0: 0.95 F1-score for class 0: 0.86 Precision for class 1: 0.83 Recall for class 1: 0.50 F1-score for class 1: 0.62 Logistic Regression Accuracy: 76.67% Classification Report: Precision for class 0: 0.76 Recall for class 0: 0.95 F1-score for class 0: 0.84 Precision for class 1: 0.80 Recall for class 1: 0.40 F1-score for class 1: 0.53 ROC Curve Comparison The ROC curve analysis shows that the KNN model (with k=5) has a higher Area Under the Curve (AUC) of approximately 0.93 compared to Logistic Regression’s AUC of approximately 0.85, indicating better performance of the KNN model.">
 
 	
   </head><body class="ma0 avenir bg-near-white development">
@@ -70,6 +72,58 @@
     <div class="flex-l items-center">
       
 
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/project" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/methodology" title="Methodology page">
+              Methodology
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/results" title="Results page">
+              Results
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/visualizations" title="Visualizations page">
+              Visualizations
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/team" title="Team page">
+              Team
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/references" title="References page">
+              References
+            </a>
+          </li>
+          
+        </ul>
       
       <div class="ananke-socials"></div>
 
@@ -90,16 +144,37 @@
     <main class="pb7" role="main">
       
   <article class="pa3 pa4-ns nested-copy-line-height">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"><h2 id="model-performance">Model Performance</h2>
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"><h1 id="results">Results</h1>
+<h2 id="k-nearest-neighbors-knn">K-Nearest Neighbors (KNN)</h2>
 <ul>
-<li><strong>K-NN (k=5)</strong>: Accuracy 80%, ROC-AUC 0.93</li>
-<li><strong>Logistic Regression</strong>: Accuracy 76.67%, ROC-AUC 0.85</li>
-</ul>
-<h2 id="key-insights">Key Insights</h2>
+<li><strong>Accuracy</strong>: 80%</li>
+<li><strong>Classification Report</strong>:
 <ul>
-<li>Elderly patients and those with lower ejection fraction are at higher risk.</li>
-<li>Higher serum creatinine levels correlate with increased mortality.</li>
+<li>Precision for class 0: 0.79</li>
+<li>Recall for class 0: 0.95</li>
+<li>F1-score for class 0: 0.86</li>
+<li>Precision for class 1: 0.83</li>
+<li>Recall for class 1: 0.50</li>
+<li>F1-score for class 1: 0.62</li>
 </ul>
+</li>
+</ul>
+<h2 id="logistic-regression">Logistic Regression</h2>
+<ul>
+<li><strong>Accuracy</strong>: 76.67%</li>
+<li><strong>Classification Report</strong>:
+<ul>
+<li>Precision for class 0: 0.76</li>
+<li>Recall for class 0: 0.95</li>
+<li>F1-score for class 0: 0.84</li>
+<li>Precision for class 1: 0.80</li>
+<li>Recall for class 1: 0.40</li>
+<li>F1-score for class 1: 0.53</li>
+</ul>
+</li>
+</ul>
+<h2 id="roc-curve-comparison">ROC Curve Comparison</h2>
+<p>The ROC curve analysis shows that the KNN model (with k=5) has a higher Area Under the Curve (AUC) of approximately 0.93 compared to Logistic Regression&rsquo;s AUC of approximately 0.85, indicating better performance of the KNN model.</p>
 </section>
     <section class="flex-ns flex-wrap justify-around mt5">
       

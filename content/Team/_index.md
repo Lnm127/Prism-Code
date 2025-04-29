@@ -1,6 +1,13 @@
 ---
-title: Our Team
+title: "Team"
+date: 2023-04-01
+draft: false
 ---
-- **Suyash Vijay (23UCS721)**: Data preprocessing and visualization & Report Compilation
-- **Priyam Garg (23UCS682)**: Model training and evaluation.
-- **Lakshay Dhaka (23UCS6__)**: PCA and feature selection.
+
+# Team Members
+
+- **SUYASH VIJAY** - 23UCS721
+- **PRIYAM GARG** - 23UCS682
+- **LAKSHAY DHAKA** - 23UCS6__
+
+We are students of The LNM Institute of Information Technology.

@@ -42,16 +42,18 @@
     <meta property="og:url" content="http://localhost:1313/methodology/">
   <meta property="og:site_name" content="The Cardiac Compass">
   <meta property="og:title" content="Methodology">
-  <meta property="og:description" content="Data Preprocessing Normalized attributes using MinMax scaler. Applied PCA to reduce dimensionality, identifying platelets as a key feature. Classification Models K-NN: Tested with k=1 to 25, selected k=5 for optimal recall. Logistic Regression: Used for binary classification.">
+  <meta property="og:description" content="Methodology Data Preprocessing Binarization: All attributes are already numeric, so no binarization is needed. Normalization: We used MinMax scaling to normalize the features since they have varying ranges. This ensures each feature contributes equally to the model. Feature Selection We employed Principal Component Analysis (PCA) to identify the most important features. The analysis revealed that the ‘platelets’ feature explains most of the variance. Consequently, we dropped less significant features such as ‘anaemia’, ‘smoking’, and ‘high_blood_pressure’.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Methodology">
-  <meta itemprop="description" content="Data Preprocessing Normalized attributes using MinMax scaler. Applied PCA to reduce dimensionality, identifying platelets as a key feature. Classification Models K-NN: Tested with k=1 to 25, selected k=5 for optimal recall. Logistic Regression: Used for binary classification.">
-  <meta itemprop="wordCount" content="37">
+  <meta itemprop="description" content="Methodology Data Preprocessing Binarization: All attributes are already numeric, so no binarization is needed. Normalization: We used MinMax scaling to normalize the features since they have varying ranges. This ensures each feature contributes equally to the model. Feature Selection We employed Principal Component Analysis (PCA) to identify the most important features. The analysis revealed that the ‘platelets’ feature explains most of the variance. Consequently, we dropped less significant features such as ‘anaemia’, ‘smoking’, and ‘high_blood_pressure’.">
+  <meta itemprop="datePublished" content="2023-04-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-04-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="122">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Methodology">
-  <meta name="twitter:description" content="Data Preprocessing Normalized attributes using MinMax scaler. Applied PCA to reduce dimensionality, identifying platelets as a key feature. Classification Models K-NN: Tested with k=1 to 25, selected k=5 for optimal recall. Logistic Regression: Used for binary classification.">
+  <meta name="twitter:description" content="Methodology Data Preprocessing Binarization: All attributes are already numeric, so no binarization is needed. Normalization: We used MinMax scaling to normalize the features since they have varying ranges. This ensures each feature contributes equally to the model. Feature Selection We employed Principal Component Analysis (PCA) to identify the most important features. The analysis revealed that the ‘platelets’ feature explains most of the variance. Consequently, we dropped less significant features such as ‘anaemia’, ‘smoking’, and ‘high_blood_pressure’.">
 
 	
   </head><body class="ma0 avenir bg-near-white development">
@@ -70,6 +72,58 @@
     <div class="flex-l items-center">
       
 
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/project" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/methodology" title="Methodology page">
+              Methodology
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/results" title="Results page">
+              Results
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/visualizations" title="Visualizations page">
+              Visualizations
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/team" title="Team page">
+              Team
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/references" title="References page">
+              References
+            </a>
+          </li>
+          
+        </ul>
       
       <div class="ananke-socials"></div>
 
@@ -90,16 +144,21 @@
     <main class="pb7" role="main">
       
   <article class="pa3 pa4-ns nested-copy-line-height">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"><h2 id="data-preprocessing">Data Preprocessing</h2>
-<ul>
-<li>Normalized attributes using MinMax scaler.</li>
-<li>Applied PCA to reduce dimensionality, identifying platelets as a key feature.</li>
-</ul>
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"><h1 id="methodology">Methodology</h1>
+<h2 id="data-preprocessing">Data Preprocessing</h2>
+<ol>
+<li><strong>Binarization</strong>: All attributes are already numeric, so no binarization is needed.</li>
+<li><strong>Normalization</strong>: We used MinMax scaling to normalize the features since they have varying ranges. This ensures each feature contributes equally to the model.</li>
+</ol>
+<h2 id="feature-selection">Feature Selection</h2>
+<p>We employed Principal Component Analysis (PCA) to identify the most important features. The analysis revealed that the &lsquo;platelets&rsquo; feature explains most of the variance. Consequently, we dropped less significant features such as &lsquo;anaemia&rsquo;, &lsquo;smoking&rsquo;, and &lsquo;high_blood_pressure&rsquo;.</p>
 <h2 id="classification-models">Classification Models</h2>
-<ul>
-<li><strong>K-NN</strong>: Tested with k=1 to 25, selected k=5 for optimal recall.</li>
-<li><strong>Logistic Regression</strong>: Used for binary classification.</li>
-</ul>
+<p>We chose two classification models for this binary classification problem:</p>
+<ol>
+<li><strong>K-Nearest Neighbors (KNN)</strong>: Suitable for small, numerical datasets.</li>
+<li><strong>Logistic Regression</strong>: Effective for binary classification tasks.</li>
+</ol>
+<p>We trained both models on the preprocessed data and evaluated their performance using accuracy scores, classification reports, and ROC curves.</p>
 </section>
     <section class="flex-ns flex-wrap justify-around mt5">
       

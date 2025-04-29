@@ -252,3 +252,9 @@ label = "YouTube"
 color = "#cd201f"
 profile = "https://www.youtube.com/@%s"
 icon = "youtube" # font awesome brand icon name
+
+[params]
+  primary_color = "#1a73e8"  # Vibrant blue
+  text_color = "#212121"     # Dark gray for readability
+  font = "Roboto"            # Modern, clean font
+  font_size = "16"           # Comfortable reading size
