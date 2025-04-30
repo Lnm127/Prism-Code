@@ -24,3 +24,11 @@ draft: false
 
 - **Live Demo**: [Heart Patient Survival Prediction App](https://heart-patient-survival.streamlit.app/)
 - **Status**: ✅ Deployed and Running
+
+### 📖 GitHub Repository
+
+-**GitHub Repository for Deploying and Running the Model** ===> [GitHub Repo 1](https://github.com/zyphronix/survival_streamlit_app) 
+
+-**GitHub Repository for this Website** ===> [GitHub Repo 2](https://github.com/Lnm127/DeepDiveDS)
+
+

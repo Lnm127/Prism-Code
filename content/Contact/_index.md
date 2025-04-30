@@ -14,6 +14,7 @@ We're excited to hear from you! Whether you have questions, suggestions, or just
 You can reach us directly through:
 
 - **Email**: [23ucs721@lnmiit.ac.in](mailto:23ucs721@lnmiit.ac.in)
+- **GitHub**: [Lnm127](https://github.com/Lnm127)
 - **Response Time**: Usually within 24-48 hours
 
 ## 📝 Contact Form
