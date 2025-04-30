@@ -8,6 +8,6 @@ draft: false
 
 - **SUYASH VIJAY** - 23UCS721
 - **PRIYAM GARG** - 23UCS682
-- **LAKSHAY DHAKA** - 23UCS6__
+- **LAKSHYA DHAKA** - 23UCS632
 
 We are students of The LNM Institute of Information Technology.

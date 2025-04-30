@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science on The Cardiac Compass</title>
+    <link>http://localhost:1313/tags/data-science/</link>
+    <description>Recent content in Data Science on The Cardiac Compass</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to Our Data Science, AI &amp; ML Projects Hub!</title>
+      <link>http://localhost:1313/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-our-website-blog-&#34;&gt;Welcome to Our Website (Blog)! 🚀&lt;/h1&gt;&#xA;&lt;h2 id=&#34;about-this-website&#34;&gt;About This Website&lt;/h2&gt;&#xA;&lt;p&gt;Welcome to our corner of the digital world where data science meets real-world healthcare challenges! Here, we document our journey through complex data analytics projects, sharing insights and discoveries along the way. Whether you&amp;rsquo;re a data scientist, healthcare professional, or curious mind, you&amp;rsquo;ll find valuable insights into how we&amp;rsquo;re using data to make a difference in healthcare.&lt;/p&gt;&#xA;&lt;figure class=&#34;featured-image&#34;&gt;&lt;img src=&#34;images/data-science-banner.jpeg&#34;&#xA;    alt=&#34;Data Science Analytics&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;our-featured-projects-&#34;&gt;Our Featured Projects 🫀&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-heart-failure-survival-prediction&#34;&gt;1. Heart Failure Survival Prediction&lt;/h3&gt;&#xA;&lt;p&gt;Our flagship project focuses on leveraging machine learning to predict survival outcomes for heart failure patients. This critical work aims to support healthcare providers in making more informed decisions and improving patient care.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
