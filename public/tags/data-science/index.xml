@@ -9,6 +9,13 @@
     <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Projects Overview</title>
+      <link>http://localhost:1313/project/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/</guid>
+      <description>&lt;h1 id=&#34;heart-failure-prediction-project&#34;&gt;Heart Failure Prediction Project&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-project-overview&#34;&gt;📋 Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project leverages machine learning techniques to predict mortality risk in heart failure patients using clinical data. By analyzing various medical indicators, we aim to develop a robust predictive model that could assist healthcare professionals in risk assessment and patient care optimization.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-objectives&#34;&gt;🎯 Objectives&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Develop an accurate prediction model for heart failure mortality&lt;/li&gt;&#xA;&lt;li&gt;Identify key clinical indicators that influence patient survival&lt;/li&gt;&#xA;&lt;li&gt;Create a reliable tool for healthcare professionals&lt;/li&gt;&#xA;&lt;li&gt;Contribute to evidence-based medical decision making&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;-dataset-description&#34;&gt;📊 Dataset Description&lt;/h2&gt;&#xA;&lt;p&gt;The analysis utilizes the Heart Failure Clinical Records Dataset from the UCI Machine Learning Repository, comprising medical records of 299 patients with heart failure.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Welcome to Our Data Science, AI &amp; ML Projects Hub!</title>
       <link>http://localhost:1313/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>

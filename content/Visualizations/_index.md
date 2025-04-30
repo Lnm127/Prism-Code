@@ -1,37 +1,36 @@
 ---
-title: "Visualizations"
+title: "📊 Data Visualizations"
 date: 2023-04-01
 draft: false
 ---
 
-# Visualizations
+# 📈 Data Visualizations
 
-## Bar Graph
+In this section, we'll explore various visualizations that help us understand our patient survival dataset better. Each visualization provides unique insights into different aspects of our data.
 
-A bar graph showing the count of patients who survived and those who did not.
+## 📊 Patient Survival Distribution
+A clear visualization of the patient survival outcomes in our dataset. This bar graph provides an immediate understanding of the dataset's balance between survival cases.
 
-![Bar Graph](path/to/bar_graph.png)
+![Bar Graph](/images/bar_graph.png)
 
-## Pie Chart
+## 🥧 Survival Rate Distribution
+This pie chart offers a proportional view of survival rates, making it easy to grasp the overall distribution at a glance.
 
-A pie chart illustrating the percentage of patients who survived and those who did not.
+![Pie Chart](/images/pie_chart.png)
 
-![Pie Chart](path/to/pie_chart.png)
+## 📦 Feature Distribution Analysis
+These box plots reveal the distribution of various medical parameters between survival groups, helping us identify key differences that might influence patient outcomes.
 
-## Box Plots
+### Key Medical Parameters
+![Box Plot 1](/images/box_plot_1.png)
 
-Box plots comparing various features between patients who survived and those who did not.
+### Additional Parameters
+![Box Plot 2](/images/box_plot_2.png)
 
-![Box Plots](path/to/box_plots.png)
+## 🔥 Feature Correlation Analysis
+This heatmap visualizes the relationships between different features in our dataset. Stronger correlations are shown in darker colors, helping us identify important feature interactions.
 
-## Correlation Matrix
+![Correlation Matrix](/images/correlation_matrix.png)
 
-A heatmap of the correlation matrix to show relationships between features.
-
-![Correlation Matrix](path/to/correlation_matrix.png)
-
-## ROC Curve
-
-The ROC curve comparing the performance of KNN and Logistic Regression models.
-
-![ROC Curve](path/to/roc_curve.png)
+---
+*Note: All visualizations were generated using Python's data visualization libraries and represent actual patient data analysis.*
