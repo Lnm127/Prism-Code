@@ -31,6 +31,11 @@ process.env = { ...globalEnv, ...process.env, ...localEnv };
 const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK || '';
 const GITHUB_DEV_TOKEN = process.env.GITHUB_DEV_TOKEN || '';
 const GITHUB_REPO = process.env.GITHUB_REPO || 'theNewDynamic/gohugo-theme-ananke';
+const GITHUB_REPO_REGEX = /^[a-zA-Z0-9_.-]+\/[a-zA-Z0-9_.-]+$/;
+if (!GITHUB_REPO_REGEX.test(GITHUB_REPO)) {
+  console.error(`Invalid GITHUB_REPO value: ${GITHUB_REPO}. Expected format: owner/repo.`);
+  process.exit(1);
+}
 const DEFAULT_MESSAGE_TEMPLATE = 'New release: {{tag_name}} - {{html_url}}';
 const MESSAGE_TEMPLATE = process.env.MESSAGE_TEMPLATE || DEFAULT_MESSAGE_TEMPLATE;
 const CACHE_DIR = './cache';
