@@ -29,6 +29,11 @@ process.env = { ...globalEnv, ...process.env, ...localEnv };
 
 // Configurable values
 const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK || '';
+const DISCORD_WEBHOOK_REGEX = /^https:\/\/discord\.com\/api\/webhooks\/[0-9]+\/[A-Za-z0-9_-]+$/;
+if (!DISCORD_WEBHOOK_REGEX.test(DISCORD_WEBHOOK)) {
+  console.error(`Invalid DISCORD_WEBHOOK value: ${DISCORD_WEBHOOK}. Expected format: https://discord.com/api/webhooks/{id}/{token}`);
+  process.exit(1);
+}
 const GITHUB_DEV_TOKEN = process.env.GITHUB_DEV_TOKEN || '';
 const GITHUB_REPO = process.env.GITHUB_REPO || 'theNewDynamic/gohugo-theme-ananke';
 const GITHUB_REPO_REGEX = /^[a-zA-Z0-9_.-]+\/[a-zA-Z0-9_.-]+$/;
