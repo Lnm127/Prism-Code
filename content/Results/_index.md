@@ -3,15 +3,7 @@ title: "📊 Results & Performance Analysis"
 date: 2023-04-01
 draft: false
 ---
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4S31C819DX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-4S31C819DX');
-</script>
 ## 📈 Project Results Overview
 
 Welcome to our comprehensive results section! Here, we showcase the outcomes and insights from our various data science projects. Each project's results are presented with detailed performance metrics, visualizations, and key findings.

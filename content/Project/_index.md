@@ -6,15 +6,7 @@ description: "Explore our comprehensive collection of data science projects, fea
 tags: ["machine learning", "healthcare", "data science", "classification"]
 categories: ["Data Science", "Healthcare Analytics"]
 ---
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4S31C819DX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-4S31C819DX');
-</script>
 # Heart Failure Prediction Project
 
 ## 📋 Project Overview

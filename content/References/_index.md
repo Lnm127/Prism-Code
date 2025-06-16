@@ -3,15 +3,7 @@ title: "📚 References & Resources"
 date: 2023-04-01
 draft: false
 ---
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4S31C819DX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-4S31C819DX');
-</script>
 # 📚 References & Resources
 
 ## Project 1: Heart Failure Patient's Survival Prediction
