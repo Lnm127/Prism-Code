@@ -6,7 +6,15 @@ draft: false
 tags: ["data science", "machine learning", "analytics", "natural language processing", "computer vision", "artificial intelligence"]
 categories: ["Data Science"]
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4S31C819DX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-4S31C819DX');
+</script>
 # Welcome to Our Website (Blog)! 🚀
 
 ## About This Website

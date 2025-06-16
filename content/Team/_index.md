@@ -4,7 +4,15 @@ date: 2023-04-01
 draft: false
 description: "Meet the brilliant minds behind these Projects"
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4S31C819DX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-4S31C819DX');
+</script>
 ## 🌟 Meet Our Team
 
 We are passionate students from **The LNM Institute of Information Technology** working together to explore the fascinating world of Data Science, AI & ML.
