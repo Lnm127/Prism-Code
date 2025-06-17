@@ -29,6 +29,6 @@ draft: false
 
 -**GitHub Repository for Deploying and Running the Model** ===> [GitHub Repo 1](https://github.com/zyphronix/survival_streamlit_app) 
 
--**GitHub Repository for this Website** ===> [GitHub Repo 2](https://github.com/Lnm127/DeepDiveDS)
+-**GitHub Repository for this Website** ===> [GitHub Repo 2](https://github.com/Lnm127/Prism-Code)
 
 
