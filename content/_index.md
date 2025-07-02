@@ -1,6 +1,6 @@
 ---
 title: "Data Science, AI & ML Projects Hub!"
-description: "Explore a curated collection of innovative projects in data science, AI, and machine learning. Designed for learners and professionals alike, our hub features hands-on projects—covering predictive analytics, NLP, computer vision, and recommendation systems—with practical insights and source code. Collaborate, learn, and grow your portfolio with resources for all skill levels."
+description: "Discover innovative data science, AI, and machine learning projects with practical insights and source code. Perfect for all skill levels to learn, collaborate, and build your portfolio."
 date: 2025-04-15
 draft: false
 tags: ["Data Science Projects", "Artificial Intelligence", "Machine Learning", "Predictive Analytics", "Natural Language Processing", "Computer Vision", "Recommendation Systems", "Hands-on Coding", "Source Code", "Real-world Applications", "AI Portfolio", "Beginner to Advanced", "Collaborative Learning", "Practical AI", "Data Science Tutorials", "ML Projects", "AI for Professionals", "Skill Development", "Applied Machine Learning", "Interactive Learning"]
