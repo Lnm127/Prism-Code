@@ -1,0 +1,14 @@
+# robots.txt for Prism-Code Hugo site
+# Allow all search engines to crawl everything except sensitive or duplicate content
+
+User-agent: *
+Disallow: /404.html
+Disallow: /404
+Disallow: /private/
+Disallow: /admin/
+
+# Allow everything else
+Allow: /
+
+# Sitemap location
+Sitemap: https://trilumina.netlify.app/ 

@@ -4,7 +4,7 @@ date: 2023-04-01
 draft: false
 description: "We'd love to hear from you! Reach out through any of our communication channels."
 ---
-
+<head><link rel="preload"><head/>
 # 📬 Get in Touch
 
 We're excited to hear from you! Whether you have questions, suggestions, or just want to say hello, we're here to help.

@@ -6,7 +6,7 @@ description: "Explore our comprehensive collection of data science projects, fea
 tags: ["machine learning", "healthcare", "data science", "classification"]
 categories: ["Data Science", "Healthcare Analytics"]
 ---
-
+<head><link rel="preload"><head/>
 # Heart Failure Prediction Project
 
 ## 📋 Project Overview

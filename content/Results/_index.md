@@ -3,7 +3,7 @@ title: "📊 Results & Performance Analysis"
 date: 2023-04-01
 draft: false
 ---
-
+<head><link rel="preload"><head/>
 ## 📈 Project Results Overview
 
 Welcome to our comprehensive results section! Here, we showcase the outcomes and insights from our various data science projects. Each project's results are presented with detailed performance metrics, visualizations, and key findings.

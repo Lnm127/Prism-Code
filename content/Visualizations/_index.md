@@ -3,7 +3,7 @@ title: "📊 Data Visualizations"
 date: 2023-04-01
 draft: false
 ---
-
+<head><link rel="preload"><head/>
 # 📈 Data Visualizations
 
 In this section, we'll explore various visualizations that help us understand our patient survival dataset better. Each visualization provides unique insights into different aspects of our data.

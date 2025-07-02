@@ -1,12 +1,13 @@
 ---
 title: "Data Science, AI & ML Projects Hub (Blog)! 🚀"
-description: "Discover innovative data science, AI, and machine learning projects with practical insights and source code. Perfect for all skill levels to learn, collaborate, and build your portfolio."
+description: "Explore data science, AI, and ML projects with code and insights—perfect for all skill levels."
 date: 2025-04-15
 draft: false
 tags: ["Data Science Projects", "Artificial Intelligence", "Machine Learning", "Predictive Analytics", "Natural Language Processing", "Computer Vision", "Recommendation Systems", "Hands-on Coding", "Source Code", "Real-world Applications", "AI Portfolio", "Beginner to Advanced", "Collaborative Learning", "Practical AI", "Data Science Tutorials", "ML Projects", "AI for Professionals", "Skill Development", "Applied Machine Learning", "Interactive Learning"]
 categories: ["Data Science"]
----
 
+---
+<head><link rel="preload"><head/>
 ## About This Website
 
 Welcome to our digital space where data science tackles real-world healthcare challenges. Follow our journey as we share insights from complex analytics projects, offering valuable perspectives for data scientists, healthcare professionals, and anyone interested in how data is transforming healthcare.
@@ -31,13 +32,13 @@ Our flagship project focuses on leveraging machine learning to predict survival 
 
 We've organized our work into easy-to-navigate sections:
 
-- [Project Overview](/Project) - Detailed background and objectives
-- [Methodology](/Methodology) - Our analytical approach and techniques
-- [Results](/Results) - Key findings and insights
-- [Visualizations](/Visualizations) - Interactive data visualizations
-- [Team](/Team) - Meet the minds behind the project
-- [Contact](/Contact) - Get in touch with us
-- [References](/References) - Sources and further reading
+- [Project Overview](/project) - Detailed background and objectives
+- [Methodology](/methodology) - Our analytical approach and techniques
+- [Results](/results) - Key findings and insights
+- [Visualizations](/visualizations) - Interactive data visualizations
+- [Team](/team) - Meet the minds behind the project
+- [Contact](/contact) - Get in touch with us
+- [References](/references) - Sources and further reading
 
 ## Latest Updates 📢
 
@@ -49,7 +50,7 @@ Stay tuned for:
 
 ## Get Started
 
-Ready to dive in? Begin with our [Project Overview](/Project) to understand the full scope of our work, or explore our [Methodology](/Methodology) to learn about our technical approach.
+Ready to dive in? Begin with our [Project Overview](/project) to understand the full scope of our work, or explore our [Methodology](/methodology) to learn about our technical approach.
 
 ---
 
