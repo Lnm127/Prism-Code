@@ -1,5 +1,0 @@
-baseURL = 'https://trilumina.netlify.app/'
-languageCode = 'en-us'
-title = 'Tri Lumina'
-theme = 'gohugo-theme-ananke-2.12.0'
-
